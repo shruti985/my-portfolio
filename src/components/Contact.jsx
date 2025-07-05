@@ -58,11 +58,11 @@ function Contact() {
             <p className="text-2xl md:text-3xl mx-auto font-semibold">
               Connect With Me 🚀
             </p>
-            <input className={inputClass} placeholder="Your Email" name="email"></input>
-            <input className={inputClass} placeholder="Your Name" name="name"></input>
-            <input className={inputClass} placeholder="Subject" name="subject"></input>
+            <input className={inputClass} placeholder="Your Email" name="email" required></input>
+            <input className={inputClass} placeholder="Your Name" name="name" required></input>
+            <input className={inputClass} placeholder="Subject" name="subject" required></input>
             <textarea
-              className={inputClass} name="message"
+              className={inputClass} name="message" required
               placeholder="Write your message here.."
               rows={"4"}
             ></textarea>
