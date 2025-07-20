@@ -17,7 +17,7 @@ function Hero() {
       className="translate flex mx-auto justify-center gap-[1rem] mt-[6rem] flex-col sm:flex-row"
       id="about"
     >
-      <div className="flex flex-col gap-[2rem] sm:max-w-[30%] max-w-[90%] p-2 sm:p-4 mt-[20vh] sm:mt-0 sm:mx-0 mx-auto">
+      <div className="flex flex-col gap-[2rem] sm:max-w-[30%] max-w-[90%] p-2 sm:p-4 mt-[18vh] sm:mt-0 sm:mx-0 mx-auto">
         <h1 className="md:text-5xl sm:text-4xl text-5xl font-bold animate-pulse">
           <span>Hi Stranger!</span>
           <br /> <span className='text-pink-500 dark:text-purple-500 '>I am Shruti Jain</span>
