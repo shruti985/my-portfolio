@@ -15,6 +15,9 @@ function Projects() {
             PROJECTS
           </h2>
         </div>
+        <p className="text-center text-xl sm:text-2xl font-semibold text-black-600 dark:text-white-400 mt-4 italic">
+          Projects that reflect my learning journey.
+        </p>
         <div className="grid md:grid-cols-2 grid-flow-row gap-[2rem] mx-auto w-[50%] mt-20">
           <ProjectCard
             title={"Blogging Platform"}
@@ -29,9 +32,7 @@ function Projects() {
               "ExpressJs",
               "Multer",
             ]}
-            Image={
-              blogImage
-            }
+            Image={blogImage}
           />
           <ProjectCard
             title={"URL Shortner"}
@@ -54,9 +55,7 @@ function Projects() {
             desc={"A web application to browse, edit, and create memes.."}
             fullDesc={fullDesc.meme}
             skills={["Html", "CSS", "JavaScript", "ReactJs", "BootStrap"]}
-            Image={
-              memeGen
-            }
+            Image={memeGen}
           />
           <ProjectCard
             title={"LeetMetric"}
@@ -65,9 +64,7 @@ function Projects() {
               "A powerful and user-friendly React.js application designed to.."
             }
             skills={["Html", "CSS", "JavaScript"]}
-            Image={
-             leetMetric
-            }
+            Image={leetMetric}
           />
         </div>
       </>

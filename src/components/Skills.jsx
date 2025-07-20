@@ -55,9 +55,12 @@ function Skills() {
           SKILLS
         </h2>
       </div>
+      <p className="text-center text-xl sm:text-2xl font-semibold text-black-600 dark:text-white-400 mt-4 italic">
+        Always learning. Always building.
+      </p>
       <div
         {...(isMobile ? handlers : {})}
-        className="md:grid space-y-[1.5rem] grid-cols-2 grid-rows-2 gap-[2rem] mx-auto w-[50%] mt-20"
+        className="md:grid space-y-[1.5rem] grid-cols-2 grid-rows-2 gap-[2rem] mx-auto w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%] mt-20"
       >
         {skillsData.map((item, i) =>
           isMobile ? (
