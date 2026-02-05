@@ -34,7 +34,7 @@ function Hero() {
           </p>
         )}
 
-        <a href="/ShrutiJain_Resume.pdf" download>
+        <a href="/Shruti_Jain_Resume.pdf" download>
           {" "}
           <button
             className="rounded-full p-5 shadow-md shadow-pink-900 ring-1 ring-gray-400/30 hover:bg-pink-300 w-[150px] dark:shadow-purple-400 dark:ring-purple-400/30

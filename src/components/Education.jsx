@@ -19,7 +19,7 @@ function Education() {
           name="NIT Kurukshetra"
           timeline="Aug 2024-Apr 2028"
           degree="Bachelor of Technology-B.Tech (Computer Science)"
-          grade="9.4"
+          grade="9.55"
           image={NITKKR}
         />
         <EduCard
